@@ -20,6 +20,7 @@ CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQpWu2GwKfZF5VQLFGHWu
 
 PRINT_WIDTH = 70
 
+# Paths
 OUTPUT_DIR = Path("tmp")
 IMAGE_DIR = OUTPUT_DIR / "images"
 OUTPUT_JSON = OUTPUT_DIR / "data.json"
@@ -78,10 +79,13 @@ def parse_row(row, log_ix):
 
     if validate_url("image"):
         try:
-            image = get_image(row["image"])
-
-            hash = hashlib.md5(image.tobytes()).hexdigest()
+            # Hash of url
+            hash = hashlib.md5(row["image"].encode()).hexdigest()
             filepath = IMAGE_DIR / f"{hash}.jpg"
+            # Initialize with old image for same link
+            if filepath.exists():
+                output["image"] = filepath.name
+            image = get_image(row["image"])
             image.save(filepath)
             output["image"] = filepath.name
 
@@ -115,11 +119,11 @@ if __name__ == "__main__":
 
     logging.info("-" * PRINT_WIDTH)
     logging.info("Parsing CSV...")
-    output = []
+    data = []
     for i, row in enumerate(reader):
         try:
             parsed = parse_row(row, log_ix=i + 2)
-            output.append(parsed)
+            data.append(parsed)
         except AssertionError:
             logging.warning(f"R{i+2}: No name")
             continue
@@ -128,5 +132,5 @@ if __name__ == "__main__":
     logging.info("-" * PRINT_WIDTH)
     logging.info("Writing JSON...")
     logging.info(f"File: {OUTPUT_JSON}")
-    write_json(output, OUTPUT_JSON)
+    write_json(data, OUTPUT_JSON)
     logging.info("Done!")

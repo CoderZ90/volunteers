@@ -6,9 +6,17 @@ git config user.email "${GITHUB_ACTOR}@github.com"
 set -eu
 
 echo "Starting"
+
+# Copy old images
+git checkout gh-pages
+mkdir tmp
+cp -r images tmp
+
+# Fetch updated data
 git checkout main
 python3 src/fetch.py
 
+# Commit
 git checkout gh-pages
 cp -r tmp/* .
 rm -r tmp
