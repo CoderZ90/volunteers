@@ -104,6 +104,8 @@ if __name__ == "__main__":
     reader = get_csv(CSV_URL)
     logging.info("Done!")
 
+    IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+
     logging.info("-" * PRINT_WIDTH)
     logging.info("Parsing CSV...")
     output = []
@@ -119,6 +121,5 @@ if __name__ == "__main__":
     logging.info("-" * PRINT_WIDTH)
     logging.info("Writing JSON...")
     logging.info(f"File: {OUTPUT_JSON}")
-    IMAGE_DIR.mkdir(parents=True, exist_ok=True)
     write_json(output, OUTPUT_JSON)
     logging.info("Done!")
