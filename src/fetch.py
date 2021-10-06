@@ -34,20 +34,19 @@ def get_csv(url):
     return csv.DictReader(lines)
 
 
-def get_image(url, log_ix):
-    try:
-        response = requests.get(url, stream=True)
-        response.raise_for_status()
-        response.raw.decode_content = True
+def get_image(url):
+    response = requests.get(url, stream=True)
+    response.raise_for_status()
+    response.raw.decode_content = True
 
-        image = Image.open(response.raw).resize((256, 256))
-        return image.convert("RGB")
-    except HTTPError:
-        logging.warning(f"R{log_ix}: Unable to fetch image - {url}")
-        # logging.warning(e)
-    except UnidentifiedImageError:
-        logging.warning(f"R{log_ix}: Unable to read image - {url}")
-        # logging.warning(e)
+    image = Image.open(response.raw)
+
+    # Should be a square image
+    width, height = image.size
+    assert 0.95 < width / height < 1.05
+
+    image = image.resize((256, 256))
+    return image.convert("RGB")
 
 
 def write_image(image, filepath):
@@ -78,12 +77,20 @@ def parse_row(row, log_ix):
             output["socials"][column] = row[column].lower()
 
     if validate_url("image"):
-        image = get_image(row["image"], log_ix)
-        if image is not None:
+        try:
+            image = get_image(row["image"])
+
             hash = hashlib.md5(image.tobytes()).hexdigest()
             filepath = IMAGE_DIR / f"{hash}.jpg"
-            output["image"] = filepath.name
             image.save(filepath)
+            output["image"] = filepath.name
+
+        except HTTPError:
+            logging.warning(f"R{log_ix}: Unable to fetch image - {row['image']}")
+        except UnidentifiedImageError:
+            logging.warning(f"R{log_ix}: Unable to read image - {row['image']}")
+        except AssertionError:
+            logging.warning(f"R{log_ix}: Not a square image - {row['image']}")
 
     return output
 
