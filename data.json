@@ -5,21 +5,23 @@
     "link": "https://shuklaayu.sh",
     "socials": {
       "github": "https://github.com/shuklaayush",
-      "linkedin": "https://www.linkedin.com/in/shuklaayush",
-      "twitter": "",
-      "instagram": ""
+      "linkedin": "https://www.linkedin.com/in/shuklaayush"
     },
     "image": "6e8d9d92c4febf3fd75559c32f0f105c.jpg"
   },
   {
+    "name": "Bharath",
+    "bio": "Buzzing bee",
+    "link": "http://ricketyship.blogspot.com/",
+    "socials": {
+      "github": "https://github.com/bee-rickey"
+    }
+  },
+  {
     "name": "Neo",
     "bio": "fruit ninja",
-    "link": "",
     "socials": {
-      "github": "https://github.com/triedcatched",
-      "linkedin": "",
-      "twitter": "",
-      "instagram": ""
+      "github": "https://github.com/triedcatched"
     },
     "image": "d61f2db6f35936e82c8f5503e5195fe7.jpg"
   }
