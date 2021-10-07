@@ -68,6 +68,7 @@ def parse_row(row, log_ix):
         if not validators.url(row[column]):
             if row[column]:
                 logging.warning(f"R{log_ix}: Invalid {column}")
+            return False
         return True
 
     if validate_url("link"):
