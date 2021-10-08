@@ -22,7 +22,7 @@
   },
   {
     "name": "Bharath",
-    "bio": "Bee",
+    "bio": "Automator",
     "link": "https://www.ricketyship.com/",
     "socials": {
       "github": "https://github.com/bee-rickey",
@@ -48,6 +48,10 @@
     "image": "62ea2693de79b537881ed607a89408a8.jpg"
   },
   {
+    "name": "Jiju",
+    "bio": "TheSocialNetwork"
+  },
+  {
     "name": "Junaid Babu",
     "bio": "Action Master",
     "socials": {
@@ -59,12 +63,24 @@
     "image": "f9211c277c27bc186e2ea1b8760022fc.jpg"
   },
   {
+    "name": "Krushna",
+    "bio": "Blue pill creator"
+  },
+  {
+    "name": "Neeraja",
+    "bio": "The one with many cats"
+  },
+  {
     "name": "Neo",
     "bio": "blue pill, always take the blue pill"
   },
   {
     "name": "Shafeeq",
-    "bio": ""
+    "bio": "Land lord"
+  },
+  {
+    "name": "Strike",
+    "bio": "he/she/it"
   },
   {
     "name": "Sumit",
