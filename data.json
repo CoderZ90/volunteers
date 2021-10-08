@@ -101,8 +101,13 @@
     "bio": "Land lord"
   },
   {
-    "name": "Shrey",
-    "bio": ""
+    "name": "Shrey Narang",
+    "bio": "The Data Management Guy",
+    "socials": {
+      "github": "https://github.com/shikarishambujr",
+      "linkedin": "https://www.linkedin.com/in/shrey-narang-b5a9b1156",
+      "twitter": "https://twitter.com/shreynarang"
+    }
   },
   {
     "name": "Strike",
