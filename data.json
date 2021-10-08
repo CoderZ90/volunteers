@@ -1,5 +1,16 @@
 [
   {
+    "name": "Aashruti",
+    "bio": "Aux state wise\\District wise data",
+    "socials": {
+      "github": "https://github.com/aashrutimourya",
+      "linkedin": "https://www.linkedin.com/in/aashruti-138588163/",
+      "twitter": "https://twitter.com/itsmehumanalien",
+      "instagram": "https://www.instagram.com/aashrutimourya/"
+    },
+    "image": "37b362227e49f13c958f97b257c44715.jpg"
+  },
+  {
     "name": "Ayush Shukla",
     "bio": "Code Ninja",
     "link": "https://shuklaayu.sh",
@@ -11,13 +22,18 @@
   },
   {
     "name": "Bharath",
-    "bio": "Buzzing bee",
+    "bio": "Bee",
     "link": "https://www.ricketyship.com/",
     "socials": {
       "github": "https://github.com/bee-rickey",
       "twitter": "https://twitter.com/ricketyship",
       "instagram": "https://www.instagram.com/rickety.ship/"
-    }
+    },
+    "image": "d0efa1d30f1260ebbf295ac907ae514a.jpg"
+  },
+  {
+    "name": "Bob",
+    "bio": "A thought"
   },
   {
     "name": "Jeremy Philemon",
@@ -32,11 +48,30 @@
     "image": "62ea2693de79b537881ed607a89408a8.jpg"
   },
   {
-    "name": "Neo",
-    "bio": "fruit ninja",
+    "name": "Junaid Babu",
+    "bio": "Action Master",
     "socials": {
-      "github": "https://github.com/triedcatched"
+      "github": "https://github.com/junaidbabu",
+      "linkedin": "https://www.linkedin.com/in/junaidbabu",
+      "twitter": "https://twitter.com/trycatchexcept",
+      "instagram": "https://www.instagram.com/junaidbabu/"
     },
-    "image": "d61f2db6f35936e82c8f5503e5195fe7.jpg"
+    "image": "f9211c277c27bc186e2ea1b8760022fc.jpg"
+  },
+  {
+    "name": "Neo",
+    "bio": "blue pill, always take the blue pill"
+  },
+  {
+    "name": "Shafeeq",
+    "bio": ""
+  },
+  {
+    "name": "Sumit",
+    "bio": "Data Guru"
+  },
+  {
+    "name": "Vikram",
+    "bio": "Politisssian"
   }
 ]
