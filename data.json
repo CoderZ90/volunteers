@@ -18,6 +18,18 @@
     }
   },
   {
+    "name": "Jeremy Philemon",
+    "bio": "Jugaad Design Engineer",
+    "link": "https://jrmyphlmn.com",
+    "socials": {
+      "github": "https://github.com/jeremyphilemon",
+      "linkedin": "https://linkedin.com/in/jeremyphilemon/",
+      "twitter": "https://twitter.com/jeremyphilemon",
+      "instagram": "https://instagram.com/jrmyphlmn/"
+    },
+    "image": "62ea2693de79b537881ed607a89408a8.jpg"
+  },
+  {
     "name": "Neo",
     "bio": "fruit ninja",
     "socials": {
