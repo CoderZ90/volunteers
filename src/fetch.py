@@ -25,6 +25,10 @@ OUTPUT_DIR = Path("tmp")
 IMAGE_DIR = OUTPUT_DIR / "images"
 OUTPUT_JSON = OUTPUT_DIR / "data.json"
 
+PLACEHOLDER_IMAGE_URL = (
+    "https://images.assetsdelivery.com/compings_v2/apoev/apoev1901/apoev190100061.jpg"
+)
+
 ddict = lambda: defaultdict(ddict)
 
 
@@ -48,10 +52,6 @@ def get_image(url):
 
     image = image.resize((256, 256))
     return image.convert("RGB")
-
-
-def write_image(image, filepath):
-    image.save(filepath)
 
 
 def parse_row(row, log_ix):
@@ -79,25 +79,31 @@ def parse_row(row, log_ix):
             output["socials"][column] = row[column].lower()
 
     if validate_url("image"):
-        try:
-            # Hash of url
-            hash = hashlib.md5(row["image"].encode()).hexdigest()
-            filepath = IMAGE_DIR / f"{hash}.jpg"
-            # Initialize with old image for same link
-            if filepath.exists():
-                output["image"] = filepath.name
-            image = get_image(row["image"])
-            image.save(filepath)
+        # Hash of url
+        hash = hashlib.md5(row["image"].encode()).hexdigest()
+        filepath = IMAGE_DIR / f"{hash}.jpg"
+        # Initialize with old image for same link
+        if filepath.exists():
+            output["image"] = filepath.name
+        if fetch_and_write_image(row["image"], filepath, log_ix):
             output["image"] = filepath.name
 
-        except HTTPError:
-            logging.warning(f"R{log_ix}: Unable to fetch image - {row['image']}")
-        except UnidentifiedImageError:
-            logging.warning(f"R{log_ix}: Unable to read image - {row['image']}")
-        except AssertionError:
-            logging.warning(f"R{log_ix}: Not a square image - {row['image']}")
-
     return output
+
+
+def fetch_and_write_image(url, filepath, log_ix=None):
+    log_prefix = f'R{log_ix}: ' if log_ix is not None else ''
+    try:
+        image = get_image(url)
+        image.save(filepath)
+        return True
+    except HTTPError:
+        logging.warning(f"{log_prefix}Unable to fetch image - {url}")
+    except UnidentifiedImageError:
+        logging.warning(f"{log_prefix}Unable to read image - {url}")
+    except AssertionError:
+        logging.warning(f"{log_prefix}Not a square image - {url}")
+    return False
 
 
 def write_json(data, filepath):
@@ -128,6 +134,12 @@ if __name__ == "__main__":
         except AssertionError:
             logging.warning(f"R{i+2}: No name")
             continue
+    logging.info("Done!")
+
+    logging.info("-" * PRINT_WIDTH)
+    logging.info("Fetching placeholder image...")
+    logging.info(f"URL: {PLACEHOLDER_IMAGE_URL}")
+    fetch_and_write_image(PLACEHOLDER_IMAGE_URL, IMAGE_DIR / "placeholder.jpg")
     logging.info("Done!")
 
     logging.info("-" * PRINT_WIDTH)
