@@ -26,7 +26,7 @@
   },
   {
     "name": "Bharath",
-    "bio": "Automator",
+    "bio": "The Automator",
     "link": "https://www.ricketyship.com/",
     "socials": {
       "github": "https://github.com/bee-rickey",
@@ -44,8 +44,18 @@
     "bio": "U."
   },
   {
-    "name": "Guneet",
-    "bio": "The Mapper"
+    "name": "Guneet Narula",
+    "bio": "Technologist",
+    "link": "https://guneet.in",
+    "socials": {
+      "github": "https://github.com/guneetnarula",
+      "twitter": "https://twitter.com/guneetnarula"
+    },
+    "image": "1c656bbda4dca362ef93364fb4a66e60.jpg"
+  },
+  {
+    "name": "Harsh",
+    "bio": ""
   },
   {
     "name": "Jeremy Philemon",
