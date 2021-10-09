@@ -40,6 +40,15 @@
     "bio": "A thought"
   },
   {
+    "name": "Cibin Joseph",
+    "bio": "Bot guy",
+    "socials": {
+      "github": "https://github.com/cibinjoseph",
+      "linkedin": "https://www.linkedin.com/in/cibinjoseph"
+    },
+    "image": "1f0eee6d70a13d2fc7bb8ea00f63cdf2.jpg"
+  },
+  {
     "name": "F.",
     "bio": "U."
   },
