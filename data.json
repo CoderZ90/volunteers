@@ -54,8 +54,15 @@
     "image": "1c656bbda4dca362ef93364fb4a66e60.jpg"
   },
   {
-    "name": "Harsh",
-    "bio": ""
+    "name": "Harsh Jain",
+    "bio": "Magixian",
+    "socials": {
+      "github": "https://github.com/harsshjain",
+      "linkedin": "https://www.linkedin.com/in/harsh-jain-7695ab15b",
+      "twitter": "https://www.twitter.com/harssh_jain",
+      "instagram": "https://www.instagram.com/itz_harsh"
+    },
+    "image": "266fbb12c65a3059c07fc9e10e44e6b4.jpg"
   },
   {
     "name": "Jeremy Philemon",
