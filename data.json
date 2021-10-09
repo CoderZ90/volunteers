@@ -111,6 +111,15 @@
     "image": "f9211c277c27bc186e2ea1b8760022fc.jpg"
   },
   {
+    "name": "Kashish",
+    "bio": "A curious soul",
+    "link": "https://www.floydimus.prismo.net/",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/floydimus"
+    },
+    "image": "810459ef59d13130a33cd973a25e421b.jpg"
+  },
+  {
     "name": "Krushna",
     "bio": "Doctor. Who?"
   },
@@ -121,6 +130,10 @@
   {
     "name": "Neo",
     "bio": "blue pill, always take the blue pill"
+  },
+  {
+    "name": "Rohith Reddy",
+    "bio": "Aux Data"
   },
   {
     "name": "Shafeeq",
