@@ -50,10 +50,6 @@
     "image": "1f0eee6d70a13d2fc7bb8ea00f63cdf2.jpg"
   },
   {
-    "name": "F.",
-    "bio": "U."
-  },
-  {
     "name": "Guneet Narula",
     "bio": "Technologist",
     "link": "https://guneet.in",
@@ -118,7 +114,7 @@
       "twitter": "https://twitter.com/trycatchexcept",
       "instagram": "https://www.instagram.com/junaidbabu/"
     },
-    "image": "f9211c277c27bc186e2ea1b8760022fc.jpg"
+    "image": "680b4b466659a9977ae828b079821f60.jpg"
   },
   {
     "name": "Kashish",
@@ -139,7 +135,11 @@
   },
   {
     "name": "Neo",
-    "bio": "blue pill, always take the blue pill"
+    "bio": "blue pill, always take the blue pill",
+    "socials": {
+      "github": "https://github.com/triedcatched/"
+    },
+    "image": "f9211c277c27bc186e2ea1b8760022fc.jpg"
   },
   {
     "name": "Rohith Reddy",
