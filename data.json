@@ -95,15 +95,14 @@
     "bio": "#TheSocialNetwork"
   },
   {
-    "name": "Jitendra Kumar Sahu",
+    "name": "Jitendra",
     "bio": "Data Operations and Management",
     "socials": {
       "github": "https://github.com/jitendra858",
       "linkedin": "https://www.linkedin.com/in/jitendra858",
       "twitter": "https://www.twitter.com/jitendra858_",
       "instagram": "https://www.instagram.com/jitendra858/"
-    },
-    "image": "8b985db03e3151eb934f5c3cc3439817.jpg"
+    }
   },
   {
     "name": "Junaid Babu",
@@ -169,7 +168,8 @@
   },
   {
     "name": "Sumit Tiwary",
-    "bio": "Omnipresent Data Guy"
+    "bio": "Omnipresent Data Guy",
+    "image": "6469fa5d1fe5e836d2300818345e0fe5.jpg"
   },
   {
     "name": "Vikram Shetty",
