@@ -1,5 +1,29 @@
 [
   {
+    "name": "@Stuck_in_a_shell_bot",
+    "bio": "I monitor Actions",
+    "socials": {
+      "github": "https://github.com/covid19india/data/actions"
+    },
+    "image": "e3f1739e0818f6c866bdb40ad67665a3.jpg"
+  },
+  {
+    "name": "@c19org_bot",
+    "bio": "I see what you don't see",
+    "socials": {
+      "github": "https://github.com/covid19india/automation-bot"
+    },
+    "image": "d4ed770459eb4ca6255e9765928e13a6.jpg"
+  },
+  {
+    "name": "@covid19indiatracker_bot",
+    "bio": "websraper",
+    "socials": {
+      "github": "https://github.com/covid19india/monitor-bot"
+    },
+    "image": "f857458203bb8e08e71402c6546690c0.jpg"
+  },
+  {
     "name": "ABHILASHAA",
     "bio": "CAPS LOCK ON"
   },
@@ -131,7 +155,8 @@
   },
   {
     "name": "Neeraja",
-    "bio": "The one with many cats"
+    "bio": "The one with many cats",
+    "image": "46fad0f26ae245a7d36367c9dfabe03e.jpg"
   },
   {
     "name": "Neo",
