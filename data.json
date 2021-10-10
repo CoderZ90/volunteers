@@ -216,7 +216,12 @@
   },
   {
     "name": "Sudev",
-    "bio": "Serial Sheeter"
+    "bio": "Monkey business",
+    "socials": {
+      "github": "https://github.com/sudevschiz",
+      "linkedin": "https://www.linkedin.com/in/sudev-chirappat-39b91572/"
+    },
+    "image": "c6470bffa5816c885e7f4ea4544e7d98.jpg"
   },
   {
     "name": "Sumit Tiwary",
