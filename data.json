@@ -17,7 +17,7 @@
   },
   {
     "name": "@covid19indiatracker_bot",
-    "bio": "websraper",
+    "bio": "Third wheeling",
     "socials": {
       "github": "https://github.com/covid19india/monitor-bot"
     },
@@ -82,6 +82,14 @@
       "twitter": "https://twitter.com/guneetnarula"
     },
     "image": "1c656bbda4dca362ef93364fb4a66e60.jpg"
+  },
+  {
+    "name": "Hari Kishore",
+    "bio": "",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/harikishorem/"
+    },
+    "image": "30406a5209abf3105478a203d092a114.jpg"
   },
   {
     "name": "Harsh Jain",
@@ -176,6 +184,10 @@
     "image": "9d2c1e4cc769fe89a1e21e9a52efb728.jpg"
   },
   {
+    "name": "Remya V",
+    "bio": "A spirit Soul"
+  },
+  {
     "name": "Rohith Reddy",
     "bio": "Aux Data"
   },
@@ -200,10 +212,6 @@
       "twitter": "https://twitter.com/shreynarang"
     },
     "image": "fd3c618457b2b8bf78765576c2e8269e.jpg"
-  },
-  {
-    "name": "Strike",
-    "bio": "he/she/it"
   },
   {
     "name": "Sudev",
