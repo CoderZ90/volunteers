@@ -39,6 +39,14 @@
     "image": "37b362227e49f13c958f97b257c44715.jpg"
   },
   {
+    "name": "Abhilash Madabhushi",
+    "bio": "Social",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/abhi1507",
+      "twitter": "https://twitter.com/abhilashmdb?t=vh2ywmxbqwwxc0l009kgzw&s=09"
+    }
+  },
+  {
     "name": "Ayush Shukla",
     "bio": "Code Ninja",
     "link": "https://shuklaayu.sh",
@@ -158,8 +166,13 @@
     "image": "810459ef59d13130a33cd973a25e421b.jpg"
   },
   {
-    "name": "Krushna",
-    "bio": "Doctor. Who?"
+    "name": "Krushna Makwana",
+    "bio": "Doctor",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/krushna-m-4a7bb870",
+      "twitter": "https://twitter.com/kru5hna"
+    },
+    "image": "d5aa570ec4eaafb7a7efbe915b7f2873.jpg"
   },
   {
     "name": "Neeraja",
