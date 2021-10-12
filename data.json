@@ -132,7 +132,11 @@
   },
   {
     "name": "Jiju",
-    "bio": "#TheSocialNetwork"
+    "bio": "Social media. Communication.",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/jijuvengal/"
+    },
+    "image": "db1665d24f743328210fca0cf9be7387.jpg"
   },
   {
     "name": "Jitendra",
