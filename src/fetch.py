@@ -11,7 +11,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 from PIL import Image, UnidentifiedImageError
-from requests.models import HTTPError
+from requests.exceptions import ConnectionError, HTTPError
 
 # Set logging level
 logging.basicConfig(stream=sys.stdout, format="%(message)s", level=logging.INFO)
@@ -97,7 +97,7 @@ def fetch_and_write_image(url, filepath, log_ix=None):
         image = get_image(url)
         image.save(filepath)
         return True
-    except HTTPError:
+    except (ConnectionError, HTTPError):
         logging.warning(f"{log_prefix}Unable to fetch image - {url}")
     except UnidentifiedImageError:
         logging.warning(f"{log_prefix}Unable to read image - {url}")
