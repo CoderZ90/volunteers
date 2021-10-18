@@ -47,6 +47,14 @@
     }
   },
   {
+    "name": "Ankan Das",
+    "bio": "",
+    "socials": {
+      "github": "https://github.com/resources-covid",
+      "linkedin": "https://www.linkedin.com/in/ankan-das-55870310a/"
+    }
+  },
+  {
     "name": "Ayush Shukla",
     "bio": "Code Ninja",
     "link": "https://shuklaayu.sh",
@@ -201,6 +209,10 @@
     "image": "f9211c277c27bc186e2ea1b8760022fc.jpg"
   },
   {
+    "name": "Nikita",
+    "bio": "Data Team"
+  },
+  {
     "name": "Nitish sandhu",
     "bio": "Engineer",
     "socials": {
@@ -208,6 +220,15 @@
       "linkedin": "https://www.linkedin.com/in/nitish-sandhu-iisc"
     },
     "image": "9d2c1e4cc769fe89a1e21e9a52efb728.jpg"
+  },
+  {
+    "name": "Rachna Verma",
+    "bio": "Data Operator",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/mwlite/in/rachna-verma-680611201",
+      "instagram": "https://instagram.com/vermarachna1203?utm_medium=copy_link"
+    },
+    "image": "7c94dabe48599e1f89d0fc0a2773e3ef.jpg"
   },
   {
     "name": "Remya V",
@@ -228,6 +249,16 @@
     "image": "8b22b692d99cafb67f46c11816b8d68d.jpg"
   },
   {
+    "name": "Sanchit Uppal",
+    "bio": "Data Enthusiast",
+    "socials": {
+      "github": "https://github.com/sanchit0912",
+      "linkedin": "https://www.linkedin.com/in/sanchit-uppal-962051172/",
+      "twitter": "https://twitter.com/sanchituppal40",
+      "instagram": "https://www.instagram.com/sanchituppal40/"
+    }
+  },
+  {
     "name": "Shafeeq",
     "bio": "Land lord"
   },
@@ -240,6 +271,14 @@
       "twitter": "https://twitter.com/shreynarang"
     },
     "image": "fd3c618457b2b8bf78765576c2e8269e.jpg"
+  },
+  {
+    "name": "Sivakumar Venkataraman",
+    "bio": "Data Analyst/BI Design",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/sivakumarv/",
+      "twitter": "https://twitter.com/veeyeskay"
+    }
   },
   {
     "name": "Sudev",
