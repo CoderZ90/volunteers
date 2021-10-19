@@ -143,6 +143,14 @@
     }
   },
   {
+    "name": "Jayanth Reddy",
+    "bio": "vjayanthr",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/vjayanthr/",
+      "instagram": "https://www.instagram.com/vjayanthr/"
+    }
+  },
+  {
     "name": "Jeremy Philemon",
     "bio": "Jugaad Design Engineer",
     "link": "https://jrmyphlmn.com",
@@ -235,6 +243,11 @@
       "linkedin": "https://www.linkedin.com/in/nitish-sandhu-iisc"
     },
     "image": "9d2c1e4cc769fe89a1e21e9a52efb728.jpg"
+  },
+  {
+    "name": "Preethy Ann K",
+    "bio": "",
+    "image": "2046e01a78baed1a2433ae20fbf499eb.jpg"
   },
   {
     "name": "Rachna Verma",
