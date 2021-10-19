@@ -24,10 +24,6 @@
     "image": "f857458203bb8e08e71402c6546690c0.jpg"
   },
   {
-    "name": "ABHILASHAA",
-    "bio": "CAPS LOCK ON"
-  },
-  {
     "name": "Aashruti",
     "bio": "Mining for Data",
     "socials": {
@@ -48,7 +44,7 @@
   },
   {
     "name": "Ankan Das",
-    "bio": "",
+    "bio": "Data and Resources",
     "socials": {
       "github": "https://github.com/resources-covid",
       "linkedin": "https://www.linkedin.com/in/ankan-das-55870310a/"
@@ -79,6 +75,16 @@
   {
     "name": "Bob",
     "bio": "A thought"
+  },
+  {
+    "name": "Chintan Sawla",
+    "bio": "Data Management",
+    "socials": {
+      "github": "https://github.com/sawlachintan",
+      "linkedin": "https://www.linkedin.com/in/chintansawla/",
+      "twitter": "https://twitter.com/sawlachintan"
+    },
+    "image": "ea730e9c45efb166f7def6655c56cbff.jpg"
   },
   {
     "name": "Cibin Joseph",
@@ -126,6 +132,14 @@
       "instagram": "https://www.instagram.com/itz_harsh"
     },
     "image": "266fbb12c65a3059c07fc9e10e44e6b4.jpg"
+  },
+  {
+    "name": "Jaivarun Reddy",
+    "bio": "Essential/ Data Ops",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/jaivarun-reddy-170714223/",
+      "instagram": "https://www.instagram.com/jaivarun.reddyyy/"
+    }
   },
   {
     "name": "Jeremy Philemon",
@@ -238,6 +252,13 @@
   {
     "name": "Rohith Reddy",
     "bio": "Aux Data"
+  },
+  {
+    "name": "SANDIP LATHIYA",
+    "bio": "Company Secretary/ Data entry",
+    "socials": {
+      "twitter": "https://twitter.com/sandeep21071989"
+    }
   },
   {
     "name": "Sai Sreekanth M",
