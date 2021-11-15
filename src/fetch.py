@@ -16,7 +16,7 @@ from requests.exceptions import ConnectionError, HTTPError
 # Set logging level
 logging.basicConfig(stream=sys.stdout, format="%(message)s", level=logging.INFO)
 
-CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQpWu2GwKfZF5VQLFGHWuWiPSk-riYszgiKYocCjAJG0vM1HNSZaJ5uAdUCjWoMcbVn1gWPAx2HNj7B/pub?gid=0&single=true&output=csv"
+CSV_URL = "https://docs.google.com/spreadsheets/d/1JErZH8duShwWFpLWSoCJhUXa-QpA98AwZvgEOk0S0Os/pub?grid=0&single=true&output=csv"
 
 PRINT_WIDTH = 70
 
